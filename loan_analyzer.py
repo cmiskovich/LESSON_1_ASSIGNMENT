@@ -75,7 +75,7 @@ loan = {
 future_value=(loan.get("future_value"))
 remaining_months=(loan.get("remaining_months"))
 print(f"Future value = {future_value} and remaining months = {remaining_months}")
-#Using the get get function we are able to pull the amounts for future value and remaining months.
+#Using the get function we are able to pull the amounts for future value and remaining months.
 
 # @TODO: Use the formula for Present Value to calculate a "fair value" of the loan.
 # Use a minimum required return of 20% as the discount rate.
@@ -225,4 +225,4 @@ with open(output_path, 'w', newline='') as csvfile:
     # Then we can write the data rows
     for loan in inexpensive_loans:
         csvwriter.writerow(loan.values())
-#Opem csv writer and write rows from inexpensive loan list to new csv files.
+#Open csv writer and write rows from inexpensive loan list to new csv files.
