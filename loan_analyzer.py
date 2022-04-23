@@ -21,13 +21,15 @@ loan_costs = [500, 600, 200, 1000, 450]
 # Print the number of loans from the list
 number_of_loans = len(loan_costs)
 print(f"The number of loans are {number_of_loans}.")
-"""Using the len function to print the number of loans in the list"""
+#Using the len function to print the number of loans in the list.
+
 # What is the total of all loans?
 # @TODO: Use the `sum` function to calculate the total of all loans in the list.
 # Print the total value of the loans
 total_value = sum(loan_costs)
 print(f"The total value of the loans are {total_value}.")
-"""Using the sum function to the print the total value of loans in the list."""
+#Using the sum function to the print the total value of loans in the list.
+
 # What is the average loan amount from the list?
 # @TODO: Using the sum of all loans and the total number of loans, calculate the average loan price.
 # Print the average loan amount
@@ -129,7 +131,7 @@ def calculate_present_value(future_value, remaining_months, annual_discount_rate
 #    Use an `annual_discount_rate` of 0.2 for this new loan calculation.
 present_value = calculate_present_value(new_loan["future_value"], new_loan["remaining_months"], new_loan["annual_discount_rate"])
 print(f"The present value of the loan is: {present_value: .2f}")
-"""Calculate and print the present value with the formula using the function created earlier in the code."""
+#Calculate and print the present value with the formula using the function created earlier in the code.
 
 """Part 4: Conditionally filter lists of loans.
 
