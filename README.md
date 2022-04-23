@@ -1,7 +1,7 @@
 # LESSON_1_ASSIGNMENT
 This repository is created for Lesson 1 due April 24th, 2022 for GW Fintech Boot Camp
 
-    ##Section 1 - *Automate the Calculations*
+#   #Section 1 - *Automate the Calculations*
 
         The following data is given:
         loan_costs = [500, 600, 200, 1000, 450]
@@ -20,7 +20,7 @@ This repository is created for Lesson 1 due April 24th, 2022 for GW Fintech Boot
                 The average amount of the loans are 550.00.
     
 
-    ##Section 2 - *Analyze Loan Data*
+##  Section 2 - *Analyze Loan Data*
 
         The following data is given:
                 loan = {
@@ -46,7 +46,7 @@ This repository is created for Lesson 1 due April 24th, 2022 for GW Fintech Boot
                 The loan is worth at least the cost to buy it.
 
 
-        ##Section 3 - *Perform Financial Calculations*
+##  Section 3 - *Perform Financial Calculations*
 
 
             The following data is given:
@@ -67,7 +67,7 @@ This repository is created for Lesson 1 due April 24th, 2022 for GW Fintech Boot
                 When the program is run the following data appears:
                     The present value of the loan is:  820.08.     
 
-        ##Section 4 - *Conditionally Filter Lists of Loans*
+##  Section 4 - *Conditionally Filter Lists of Loans*
 
             1. I created a new empty list and named it inexpensive_loans on line 175.
 
@@ -82,11 +82,11 @@ This repository is created for Lesson 1 due April 24th, 2022 for GW Fintech Boot
 
 
 
-        ##Section 5 - *Save the Results*     
+##  Section 5 - *Save the Results*     
 
             1. I used open to open a new CSV file, then created a csvwriter using the csv library, after that used the new csvwriter to write the header variable as the first row. Then wrote a for loop to iterate through each loan in inexpensive_loans. Finally used the csvwriter to write the loan.values() to a row in the CSV file.
 
                 The output of this function was a file called inexpensive_loans.csv and it is attached in the assignment along with my python file.
 
-                
+
 
