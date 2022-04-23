@@ -1,6 +1,6 @@
 # LESSON_1_ASSIGNMENT
-This repository is created for Lesson 1 due April 24th, 2022 for GW Fintech Boot Camp
-The purpose of this assignment is to create a loan analyzer in python using  calculations that analyze data from hypothetical set of dictionaries and lists.  Also, this assigment you create a conditional filter from a set of lists based on if else statements and capture the 
+This repository is created for Lesson 1 due April 24th, 2022 for GW Fintech Boot Camp.  
+The purpose of this assignment is to create a loan analyzer in python using  calculations that analyze data from hypothetical set of dictionaries and lists.  Also, in this assignment you create a conditional filter from a set of lists based on if else statements and then capture the condtitional filter in an empty list and save the results to a comma seperated file (csv).
 
 ##  Section 1 - *Automate the Calculations*
 
