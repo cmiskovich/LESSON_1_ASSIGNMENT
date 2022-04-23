@@ -87,7 +87,7 @@ The purpose of this assignment is to create a loan analyzer in python using  cal
 
 ###            1. I used open to open a new CSV file, then created a csvwriter using the csv library, after that used the new csvwriter to write the header variable as the first row. Then wrote a for loop to iterate through each loan in inexpensive_loans. Finally used the csvwriter to write the loan.values() to a row in the CSV file.  My code for this is in lines 210 - 227.
 
-###                The output of this function was a file called inexpensive_loans.csv and the link is below.
+###                The output of this function is a file called inexpensive_loans.csv and the link is below.
 
 [Inexpensive Loans](inexpensive_loans.csv)
 
