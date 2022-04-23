@@ -1,5 +1,6 @@
 # LESSON_1_ASSIGNMENT
 This repository is created for Lesson 1 due April 24th, 2022 for GW Fintech Boot Camp
+The purpose of this assignment is to create a loan analyzer in python using  calculations that analyze data from hypothetical set of dictionaries and lists.  Also, this assigment you create a conditional filter from a set of lists based on if else statements and capture the 
 
 ##  Section 1 - *Automate the Calculations*
 
@@ -15,9 +16,9 @@ This repository is created for Lesson 1 due April 24th, 2022 for GW Fintech Boot
 ###        4. I was able to print the three calculations with descriptive messages and the code is on lines 23, 30, and 37.
 
 ###            When the program is run the following data appears:
-###                The number of loans are 5.
-###                The total value of the loans are 2750.
-###                The average amount of the loans are 550.00.
+                The number of loans are 5.
+                The total value of the loans are 2750.
+                The average amount of the loans are 550.00.
     
 
 ##  Section 2 - *Analyze Loan Data*
@@ -38,12 +39,12 @@ This repository is created for Lesson 1 due April 24th, 2022 for GW Fintech Boot
 ###        2. Using the amounts in the loan dictionary and a return rate of 20% I used the present value formula to create a calculation called fair_value.  I am also able to print the fair_value running the program.  My code is on lines 85 and 86.
 
 ###             When the program is run the following data appears:
-###                The present value of the loan is $ 861.77.
+                The present value of the loan is $ 861.77.
 
 ###        3. I prepared and if-else statement with the condition that represents the loans fair value compared to the present value.  If the present value of the loan is greater than or equal to the cost, then print a message that says that the loan is worth at least the cost to buy it. If the present value of the loan is less than the loan cost, then print a message that says that the loan is too expensive and not worth the price. My code is on lines 93 - 96.  I am also able to print the result when the program is run.
 
 ###            When the program is run the following data appears:
-###                The loan is worth at least the cost to buy it.
+               The loan is worth at least the cost to buy it.
 
 
 ##  Section 3 - *Perform Financial Calculations*
@@ -65,7 +66,7 @@ This repository is created for Lesson 1 due April 24th, 2022 for GW Fintech Boot
 ###            2. I used the function to print the present value of the new loan and that code is on lines 132 and 133.
 
 ###                When the program is run the following data appears:
-###                    The present value of the loan is:  820.08.     
+                  The present value of the loan is:  820.08.     
 
 ##  Section 4 - *Conditionally Filter Lists of Loans*
 
@@ -78,7 +79,7 @@ This repository is created for Lesson 1 due April 24th, 2022 for GW Fintech Boot
 ###            4. I have a line of code to print the inexpensive_loan list on line 192.
 
 ###                When the program is run the following data appears:
-###                    The list of inexpensive loans [{'loan_price': 500, 'remaining_months': 13, 'repayment_interval': 'bullet', 'future_value': 1000}, {'loan_price': 200, 'remaining_months': 16, 'repayment_interval': 'bullet', 'future_value': 1000}]
+                    The list of inexpensive loans [{'loan_price': 500, 'remaining_months': 13, 'repayment_interval': 'bullet', 'future_value': 1000}, {'loan_price': 200, 'remaining_months': 16, 'repayment_interval': 'bullet', 'future_value': 1000}]
 
 
 
