@@ -1,7 +1,7 @@
 # LESSON_1_ASSIGNMENT
 This repository is created for Lesson 1 due April 24th, 2022 for GW Fintech Boot Camp
 
-#   #Section 1 - *Automate the Calculations*
+##  Section 1 - *Automate the Calculations*
 
         The following data is given:
         loan_costs = [500, 600, 200, 1000, 450]
