@@ -91,7 +91,7 @@ The purpose of this assignment is to create a loan analyzer in python using  cal
 
 ![loan_price	remaining_months	repayment_interval	future_value
 500	13	bullet	1000
-200	16	bullet	1000]
+200	16	bullet	1000](inexpensive_loans.csv)
 
 
 
