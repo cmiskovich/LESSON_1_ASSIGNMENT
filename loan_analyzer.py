@@ -72,9 +72,9 @@ loan = {
 
 # @TODO: Use get() on the dictionary of additional information to extract the Future Value and Remaining Months on the loan.
 # Print each variable.
-print(loan.get("future_value"))
-print(loan.get("remaining_months"))
-print()
+future_value=(loan.get("future_value"))
+remaining_months=(loan.get("remaining_months"))
+print(f"Future value = {future_value} and remaining months = {remaining_months}")
 #Using the get get function we are able to pull the amounts for future value and remaining months.
 
 # @TODO: Use the formula for Present Value to calculate a "fair value" of the loan.
@@ -82,7 +82,7 @@ print()
 #   You'll want to use the **monthly** version of the present value formula.
 #   HINT: Present Value = Future Value / (1 + Discount_Rate/12) ** remaining_months
 
-fair_value = loan.get("future_value") / (1 + (.2 / 12))  ** loan.get("remaining_months")
+fair_value = future_value / (1 + (.2 / 12))  ** remaining_months
 print(f"The present value of the loan is ${fair_value: .2f}")
 #Using the present value formula we are able to determine the "fair value" data set and print the present value of the loan.
 
