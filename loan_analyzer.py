@@ -34,7 +34,7 @@ print(f"The total value of the loans are {total_value}.")
 # @TODO: Using the sum of all loans and the total number of loans, calculate the average loan price.
 # Print the average loan amount
 average_loan_amount = total_value / number_of_loans
-print(f"The average amount of the loans are {average_loan_amount}.")
+print(f"The average amount of the loans are {average_loan_amount: .2f}.")
 #Using the formula dividing the the total value by the number of loans we are able to determine the average loan amount and print the value.
 
 
@@ -83,7 +83,7 @@ print(f"Future value = {future_value} and remaining months = {remaining_months}"
 #   HINT: Present Value = Future Value / (1 + Discount_Rate/12) ** remaining_months
 
 fair_value = future_value / (1 + (.2 / 12))  ** remaining_months
-print(f"The present value of the loan is ${fair_value: .2f}")
+print(f"The present value of the loan is ${fair_value: .2f}.")
 #Using the present value formula we are able to determine the "fair value" data set and print the present value of the loan.
 
 # If Present Value represents what the loan is really worth, does it make sense to buy the loan at its cost?
@@ -130,7 +130,7 @@ def calculate_present_value(future_value, remaining_months, annual_discount_rate
 # @TODO: Use the function to calculate the present value of the new loan given below.
 #    Use an `annual_discount_rate` of 0.2 for this new loan calculation.
 present_value = calculate_present_value(new_loan["future_value"], new_loan["remaining_months"], new_loan["annual_discount_rate"])
-print(f"The present value of the loan is: {present_value: .2f}")
+print(f"The present value of the loan is: {present_value: .2f}.")
 #Calculate and print the present value with the formula using the function created earlier in the code.
 
 """Part 4: Conditionally filter lists of loans.
